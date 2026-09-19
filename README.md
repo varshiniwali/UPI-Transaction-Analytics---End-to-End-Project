@@ -9,7 +9,7 @@ UPI Transaction analytics on 1 table with 500000+ rows &amp; 22 columns. Excel d
 - **File:** `upi_transactions.xlxs`
 - **Rows:** 500000+ transactions
 - **Columns:** 22 columns
-- **How I Read:** `df = pd.read_csv('upi_transactions.csv')` -> `df.shape` = (50000, 12), `df.info()`, `df.isnull().sum()`
+- **How I Read:** `df = pd.read_csv('upi_transactions.csv')` -> `df.shape` = (500000, 22), `df.info()`, `df.isnull().sum()`
 - **Columns:** transaction_id, sender_name, sender_bank, receiver_name, receiver_bank, amount, transaction_type (P2P/P2M), status (Success/Failed/Pending), timestamp, city, upi_app (PhonePe/GPay/Paytm), fee
 
 ### 🛠️ Workflow
@@ -30,7 +30,7 @@ File: `upi_40_queries.sql`
 - **Window Functions:** RANK() banks by volume, ROW_NUMBER() per user latest txn, LAG() MoM growth, SUM() OVER() running total, AVG() OVER() per city
 
 **3. Python - Pandas, Seaborn, Matplotlib**
-- `pd.read_csv()` - 500000 rows read
+- `pd.read_xlxs()` - 500000 rows read
 - EDA: Peak hours (7-9 PM), Success rate 92%, Top bank HDFC, Top app PhonePe
 - Visuals: Bar, Line, Heatmap, Boxplot for amount distribution
 
