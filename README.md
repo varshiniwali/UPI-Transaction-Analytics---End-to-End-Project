@@ -6,9 +6,9 @@ UPI Transaction analytics on 1 table with 500000+ rows &amp; 22 columns. Excel d
 > UPI Transaction analytics on 1 table with 50000+ rows & 12 columns. Excel dashboard with Pivot Tables, Charts, Slicers & summary, 40+ SQL queries using Group By, Order By, Having, Joins, Subqueries & Window Functions, Python EDA via Pandas, Seaborn, Matplotlib & Power BI dashboard with Power Query, DAX visuals & transaction KPIs for total growth.
 
 ### 📊 Dataset - 1 Table Only
-- **File:** `upi_transactions.csv`
-- **Rows:** 50000+ transactions
-- **Columns:** 12 columns
+- **File:** `upi_transactions.xlxs`
+- **Rows:** 500000+ transactions
+- **Columns:** 22 columns
 - **How I Read:** `df = pd.read_csv('upi_transactions.csv')` -> `df.shape` = (50000, 12), `df.info()`, `df.isnull().sum()`
 - **Columns:** transaction_id, sender_name, sender_bank, receiver_name, receiver_bank, amount, transaction_type (P2P/P2M), status (Success/Failed/Pending), timestamp, city, upi_app (PhonePe/GPay/Paytm), fee
 
