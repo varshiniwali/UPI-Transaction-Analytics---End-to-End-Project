@@ -1,0 +1,2 @@
+# UPI-Transaction-Analytics---End-to-End-Project
+UPI Transaction analytics on 1 table with 50000+ rows &amp; 12 columns. Excel dashboard with Pivot Tables, Charts, Slicers &amp; summary, 40+ SQL queries using Group By, Order By, Having, Joins, Subqueries &amp; Window Functions, Python EDA via Pandas, Seaborn, Matplotlib &amp; Power BI dashboard with Power Query, DAX visuals &amp; transaction KPIs for total growth.
